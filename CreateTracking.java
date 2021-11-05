@@ -57,9 +57,7 @@ public class CreateTracking {
 		return this.post(param,signature);
 	}
 	
-	/**
-	 * 发送post请求
-	 */
+
 	public String post(String param,String signature) {
 		StringBuffer response = new StringBuffer("");
 
@@ -112,7 +110,7 @@ public class CreateTracking {
 }
 
 /**
- * md5加密
+ * md5 sign
  */
 class MD5Utils {
 	private static MessageDigest mdigest = null;

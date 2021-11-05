@@ -44,9 +44,7 @@ public class CarrierAutoDetection {
 		return this.post(param,signature);
 	}
 	
-	/**
-	 * 发送post请求
-	 */
+
 	public String post(String param,String signature) {
 		StringBuffer response = new StringBuffer("");
 
@@ -98,9 +96,7 @@ public class CarrierAutoDetection {
 	}
 }
 
-/**
- * md5加密
- */
+
 class MD5Utils {
 	private static MessageDigest mdigest = null;
 	private static char digits[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
